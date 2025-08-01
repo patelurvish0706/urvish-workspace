@@ -1,0 +1,445 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #eaf0ff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  color: #0f172a;
+  /* Text color when selected */
+  background: #5eead4;
+  /* Optional: background color */
+}
+
+/* Base fade-up animation */
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* App.jsx */
+
+.container {
+  justify-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 30%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+/* Mouse.jsx */
+/* --- */
+
+
+/* Hero.jsx */
+
+#Hero {
+  height: 80%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  align-self: center;
+}
+
+#Hero h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: -3px;
+}
+
+#Hero h4 {
+  font-size: 1.2rem;
+  font-weight: 200;
+  padding: 5px 0;
+}
+
+#Hero p {
+  font-size: 1rem;
+  color: #94a3b8;
+  padding: 8px 0;
+}
+
+.bi {
+  color: #94a3b8;
+  cursor: pointer;
+}
+
+.bi:hover {
+  color: #eaf0ff;
+
+}
+
+/* List.jsx */
+
+.List {
+  display: flex;
+  flex-direction: column;
+  /* height: 350px; */
+}
+
+.index {
+  margin-top: -50px;
+}
+
+
+.indexO {
+  padding: 5px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.indexO.active {
+  color: #0f172a;
+  font-weight: bold;
+}
+
+.indexO #sapDash {
+  width: 50px;
+  height: 1.5px;
+  background-color: #eaf0ff;
+  background-color: #94a3b8;
+  margin: 0 10px 0 0;
+}
+
+.indexO #indexName {
+  color: #94a3b8;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.indexO #indexName:hover {
+  font-size: 17px;
+  color: #eaf0ff;
+}
+
+/* Content */
+
+/* --- About --- */
+.Content {
+  width: 50%;
+  overflow-y: auto;
+  scrollbar-width: none;
+
+  height: 80%;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+
+.Content #about p {
+  color: #94a3b8;
+}
+
+.Content #about spantext {
+  font-size: 15px;
+  text-shadow: 0px 0px 8px #94a3b8e4;
+}
+
+/* --- Skills --- */
+
+.Content h5 {
+  font-size: 18px;
+  font-family: monospace;
+  margin-top: 40px;
+}
+
+.Content #skillCard,
+#ExpCard,
+#projCard {
+  padding: 15px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  overflow: visible;
+}
+
+.Content #skillCard #skillField,
+#ExpTitle {
+  color: #94a3b8;
+  width: 40%;
+}
+
+/* --- Experiance --- */
+
+#ExpTitle {
+  font-size: 14px;
+  width: 30%;
+}
+
+.Content #skillCard #skillList,
+#ExpInfo {
+  width: 60%;
+  font-size: 15px;
+}
+
+#ExpInfo {
+  width: 90%;
+}
+
+#ExpCompanyName,
+#projTitle,
+#CertiTitle a {
+  color: #5eead4;
+}
+
+#ExpList {
+  font-size: 14px;
+}
+
+#ExpSkillList {
+  margin: 10px 0px;
+}
+
+#ExpProject {
+  margin: 15px 0px;
+}
+
+#ExpProject a {
+  padding: 4px 10px;
+  border-radius: 10px;
+  color: #eaf0ff;
+  background-color: #94a3b830;
+  width: fit-content;
+  box-shadow: 0px 0px 20px 2px #00000041;
+  text-decoration: none;
+}
+
+#ExpProject a:hover {
+  color: #fff;
+  text-shadow: 0px 0px 8px #94a3b8e4;
+}
+
+.Content #skillCard #skillList #skillListSet {
+  user-select: none;
+  margin-bottom: 7px;
+}
+
+.Content #skillCard #skillList #skillListSet skill,
+skill {
+  font-size: 14px;
+  padding: 3px 9px;
+  border-radius: 10px;
+  background-color: #5eead528;
+  color: #5eead4;
+}
+
+/* .Content #skillCard:hover{ */
+.Content #skillCard,
+#projCard {
+  background-color: #94a3b816;
+  box-shadow: 0px 0px 3px 2px #0002;
+}
+
+#BoxLink {
+  padding: 5px 15px;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: #5eead52f;
+  box-shadow: 0px 0px 3px 2px #0002;
+}
+
+#BoxLink a {
+  color: #5eead4;
+}
+
+#BoxLink a:hover {
+  color: #94ffef;
+}
+
+/* --- Projects --- */
+
+#projCard {
+  gap: 15px;
+}
+
+#projCard #projImage img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 3px #0002;
+}
+
+#projCard #projImage {
+  justify-items: center;
+}
+
+#projCard #projDesc {
+  font-size: 15px;
+  padding: 5px;
+  color: #94a3b8;
+}
+
+#certiCard ,#contactCard{
+  padding: 15px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  gap: 15px;
+  background-color: #94a3b816;
+  box-shadow: 0px 0px 3px 2px #0002;
+  align-items: center;
+}
+
+#CertiImage img {
+  width: 90px;
+  height: 70px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 5px #00000079;
+}
+
+#contactCard{
+  padding: 0px;
+  flex-direction: column;
+  align-items: start;
+  background-color: transparent;
+  font-size: 15px;
+  box-shadow: none;
+
+}
+
+#contactCard a{
+  color: #94ffef;
+  text-decoration: none;
+  padding: 3px 10px;
+  background-color: #5eead528;
+  border-radius: 10px;
+}
+
+#thankyou{
+  padding: 20px 0;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  text-align: center;
+  gap: 5spx;
+}
+
+#greet{
+  color: #eaf0ffd7;
+  font-weight: 600;
+  font-size: 22px;
+  text-shadow: 0px 0px 8px #94a3b8e4;
+}
+
+#copy{
+    color: #eaf0ffd7;
+  font-weight: 200;
+  font-size: 15px;
+  text-shadow: 0px 0px 8px #94a3b8e4;
+}
+
+/* ---------------------------------------- */
+
+@media only screen and (max-width: 995px) {
+  .container {
+    flex-direction: column;
+    overflow: scroll;
+    height: fit-content;
+  }
+
+  #Hero {
+    position: relative;
+  }
+
+  #Hero,
+  .Content {
+    width: 80%;
+    height: fit-content;
+  }
+
+  #Hero h2 {
+    padding-top: 20px;
+    font-size: 2rem;
+    letter-spacing: -1px;
+  }
+
+  #Hero h4 {
+    font-size: 1rem;
+    padding: 5px 0;
+  }
+
+  #Hero p {
+    font-size: 0.8rem;
+    padding: 0px 0;
+  }
+
+  #logos {
+    margin-bottom: 20px;
+  }
+
+  .index {
+    display: none;
+  }
+
+  .Content {
+    overflow: hidden;
+    scrollbar-width: none;
+
+    height: fit-content;
+  }
+
+  .Content h5 {
+    margin-top: 10px;
+  }
+
+  .Content #skillCard,
+  #ExpCard,
+  #projCard {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .Content #skillCard #skillField,
+  #ExpTitle {
+    width: 80%;
+  }
+
+  #ExpTitle {
+    width: 80%;
+  }
+
+  #ExpCard {
+    margin: 0;
+  }
+
+  .Content #skillCard #skillList,
+  #ExpInfo {
+    width: 100%;
+  }
+
+  #ExpProject a {
+    line-height: 30px;
+  }
+
+  skill {
+    line-height: 25px;
+  }
+
+  #certiCard {
+    flex-direction: column;
+}
+}
