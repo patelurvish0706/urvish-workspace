@@ -223,15 +223,19 @@ function Content() {
           <h5>Contact</h5>
 
           <div className="fade-up" id="contactCard">
-          <div id="contactPhone"> <a href="tel:+917436020138">📞 +91 7436020138</a></div>
-          <div id="contactMail"> <a href="mailto:patelurvish0706@gmail.com">📧 patelurvish0706@gmail.com</a></div>
-          <div id="contactLinkedIN"> <a href="https://www.linkedin.com/in/urvishpatel0706" target='_blank'>🔗 linkedin.com/in/urvishpatel0706</a></div>
+            <div id="contactPhone"> <a href="tel:+917436020138">📞 +91 7436020138</a></div>
+            <div id="contactMail"> <a href="mailto:patelurvish0706@gmail.com">📧 patelurvish0706@gmail.com</a></div>
+            <div id="contactLinkedIN"> <a href="https://www.linkedin.com/in/urvishpatel0706" target='_blank'>🔗 linkedin.com/in/urvishpatel0706</a></div>
           </div>
 
+          <div id="petCat">
 
-          <div id="thankyou">
-            <div id="greet">Thank You!!</div>
-            <div id="copy">&copy; Portfolio - Urvish Patel, 2025-26.</div>
+            <div id="thankyou">
+              <div id="greet">Thank You!!</div>
+              <div id="copy">&copy; Portfolio - Urvish Patel 2025-26.</div>
+            </div>
+
+            <img id="catie" src="./petcat.gif" alt="petcat" />
           </div>
 
         </div>

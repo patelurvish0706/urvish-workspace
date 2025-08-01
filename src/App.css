@@ -291,7 +291,8 @@ skill {
   color: #94a3b8;
 }
 
-#certiCard ,#contactCard{
+#certiCard,
+#contactCard {
   padding: 15px;
   margin: 20px 0;
   border: none;
@@ -310,7 +311,7 @@ skill {
   box-shadow: 0px 0px 20px 5px #00000079;
 }
 
-#contactCard{
+#contactCard {
   padding: 0px;
   flex-direction: column;
   align-items: start;
@@ -320,7 +321,7 @@ skill {
 
 }
 
-#contactCard a{
+#contactCard a {
   color: #94ffef;
   text-decoration: none;
   padding: 3px 10px;
@@ -328,7 +329,7 @@ skill {
   border-radius: 10px;
 }
 
-#thankyou{
+#thankyou {
   padding: 20px 0;
   margin: 50px 0;
   display: flex;
@@ -338,18 +339,35 @@ skill {
   gap: 5spx;
 }
 
-#greet{
+#greet {
   color: #eaf0ffd7;
   font-weight: 600;
   font-size: 22px;
   text-shadow: 0px 0px 8px #94a3b8e4;
 }
 
-#copy{
-    color: #eaf0ffd7;
+#copy {
+  color: #eaf0ffd7;
+  color: #94a3b8;
   font-weight: 200;
   font-size: 15px;
   text-shadow: 0px 0px 8px #94a3b8e4;
+}
+
+#petCat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#catie {
+  margin-top: -3px;
+  margin-left: -25px;
+  width: 100px;
+  height: 120px;
+  object-fit: cover;
 }
 
 /* ---------------------------------------- */
@@ -426,7 +444,8 @@ skill {
     margin: 0;
   }
 
-  #experiance,#education{
+  #experiance,
+  #education {
     margin-top: 20px;
   }
 
@@ -445,5 +464,5 @@ skill {
 
   #certiCard {
     flex-direction: column;
-}
+  }
 }
