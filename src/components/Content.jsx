@@ -31,7 +31,7 @@ function Content() {
 
         <div className="fade-up" id="about">
           <p className="fade-up">I am a web developer with hands-on experience in <spantext>HTML, CSS, JavaScript, PHP, MySQL,</spantext> and <spantext>React.js</spantext>. I enjoy building clean, user-friendly websites and web applications. From designing <spantext>responsive layouts</spantext> to connecting <spantext>databases</spantext>, I like working on both the <spantext>front-end</spantext> and <spantext>back-end</spantext> parts of a project.</p>
-          <p className="fade-up">Recently, I have developed an interest in <spantext>Data analysis</spantext>. I am learning how to <spantext>collect, clean, and understand data</spantext> to find useful insights. I enjoy working with numbers and using tools like <spantext>Excel, Python (Pandas), or Google Sheets</spantext> to solve problems and make smart decisions from data.</p>
+          <p className="fade-up">Recently, I have developed an interest in <spantext>Data analysis</spantext>. I am learning how to <spantext>collect, clean, and understand data</spantext> to find useful insights. I enjoy working with numbers and using tools like <spantext>Excel, Python (Pandas), and PowerBI</spantext> to solve problems and make smart decisions from data.</p>
           <p className="fade-up">I am also exploring the <spantext>Salesforce platform</spantext> and want to become a <spantext>Salesforce Administrator</spantext>. I like how Salesforce helps businesses manage customers, sales, and service. I am learning about CRM tools, automation, and how to manage users, data, and security in Salesforce.</p>
         </div>
 
