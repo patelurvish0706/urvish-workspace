@@ -367,7 +367,7 @@ skill {
 
   #Hero,
   .Content {
-    width: 80%;
+    width: 90%;
     height: fit-content;
   }
 
@@ -415,15 +415,19 @@ skill {
 
   .Content #skillCard #skillField,
   #ExpTitle {
-    width: 80%;
+    width: 90%;
   }
 
   #ExpTitle {
-    width: 80%;
+    width: 90%;
   }
 
   #ExpCard {
     margin: 0;
+  }
+
+  #experiance,#education{
+    margin-top: 20px;
   }
 
   .Content #skillCard #skillList,
