@@ -39,7 +39,7 @@ function Content() {
           <h5>Skills</h5>
 
           <div id="skillCard">
-            <div id="skillField">Frontend Development</div>
+            <div id="skillField">Web Development</div>
             <div id="skillList">
               <div id="skillListSet"> <skill>HTML</skill> <skill>CSS</skill>   <skill>JavaScript</skill> </div>
               <div id="skillListSet"> <skill>PHP</skill> <skill>MySql</skill>  <skill>React.js</skill> </div>
@@ -50,7 +50,7 @@ function Content() {
           <div id="skillCard">
             <div id="skillField">Data Analysis (Learning)</div>
             <div id="skillList">
-              <div id="skillListSet"> <skill>Excel</skill> <skill>PowerBI</skill>  <skill>Google Sheets</skill> </div>
+              <div id="skillListSet"> <skill>Excel</skill> <skill>PowerBI</skill>  <skill>MySql</skill> </div>
               <div id="skillListSet"> <skill>Python (Basics, Pandas)</skill></div>
               <div id="skillListSet"> <skill>Data Cleaning & Visualization</skill> </div>
             </div>
@@ -122,7 +122,7 @@ function Content() {
           <div className="fade-up" id="projCard">
             <div id="projImage"><img src="../Pro-Compiler.png" alt="" srcSet="" /></div>
             <div id="projInfo">
-              <div id="projTitle">🔥 JavaScript Compiler</div>
+              <div id="projTitle">🔥JavaScript Compiler</div>
               <div id="projDesc">An In-browser JavaScript code compiler built using pure HTML, CSS, and JavaScript. ✨ Write, run, and test JS code directly in the browser — no frameworks, no libraries.</div>
               <div id="ExpProject">⫱ <a href="https://github.com/patelurvish0706/JavaScriptCompiler" target='_blank'>JavaScript Compiler [Github] ↗</a> <a href="https://patelurvish0706.github.io/JavaScriptCompiler/Compiler/" target='_blank'> 🟢 Try Now ↗</a> </div>
               <div id="ExpSkillList"><skill>HTML</skill> <skill>CSS</skill> <skill>JavaScript</skill></div>
