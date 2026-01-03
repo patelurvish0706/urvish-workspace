@@ -188,6 +188,14 @@ function Content() {
           <div className="fade-up" id="certiCard">
             <div id="CertiImage"><img src="https://certificates.dev/.netlify/images?url=%2Fimages%2Ftech%2Freact%2Fhero-mobile-tablet.png" alt="" srcSet="" /></div>
             <div id="CertiInfo">
+              <div id="CertiTitle"><a href="./JavaStack.pdf" target='_blank'>Java FullStack Developer - Trainee</a> ↗</div>
+              <div id="CertiTitle2">• Grras Solution Pvt Ltd.</div>
+            </div>
+          </div>
+          
+          <div className="fade-up" id="certiCard">
+            <div id="CertiImage"><img src="https://certificates.dev/.netlify/images?url=%2Fimages%2Ftech%2Freact%2Fhero-mobile-tablet.png" alt="" srcSet="" /></div>
+            <div id="CertiInfo">
               <div id="CertiTitle"><a href="./15DaysReact.pdf" target='_blank'>15-Days Summer Internship on React.js</a> ↗</div>
               <div id="CertiTitle2">• CreArt Solution Pvt Ltd.</div>
             </div>
